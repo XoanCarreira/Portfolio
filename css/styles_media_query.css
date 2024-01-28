@@ -1,0 +1,18 @@
+@media ( width <= 700px) {
+    .principal__h2{
+        font-size: 2rem;
+        left: 20px;
+    }
+
+    .principal__nome{
+        font-size: 3rem;
+    }
+
+    .foto{
+        width: 300px;
+    }
+
+    .etiqueta__p{
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="gl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon" />
+    <title>Juan Carreira Nodar</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/styles_media_query.css" />
+  </head>
+  <body>
+    <!--Header-->
+    <header>
+      <div class="header__left">
+        <img
+          class="header__logo"
+          src="assets/logo__JC_modif.svg"
+          alt="Logo Juan Carreira"
+          width="80px"
+        />
+        <h1>Juan Carreira Nodar</h1>
+      </div>
+      <div class="header__contacto">
+        <a class="header__correo" href="mailto:xoancano@gmail.com"
+          >Contáctame</a
+        >
+      </div>
+    </header>
+
+    <!--Main-->
+    <main>
+      <div class="espaciador__150"></div>
+      <section class="principal">
+        <img
+          class="foto"
+          src="assets/retrato_grises_s.JPG"
+          alt="Foto de Juan Carreira"
+        />
+        <h2 class="principal__h2">
+          <span class="principal__nome">Juan Carreira,</span><br />desarrollador
+          web front-end
+        </h2>
+      </section>
+      <div class="espaciador__50"></div>
+
+      <!--Caja central-->
+      <div class="main__box">
+        <!--Seccion presentación-->
+        <div
+          onclick="mostrar(presentacion)"
+          class="etiqueta etiqueta__presentacion"
+        >
+          <p class="etiqueta__p">Presentación</p>
+        </div>
+        <section id="presentacion" class="presentacion">
+          <h3>Presentación</h3>
+          <div class="presentacion__box">
+            <p class="tabulacion box__info presentacion__p">
+              Soy un apasionado desarrollador web en ciernes con una sólida base
+              en HTML, CSS y JavaScript. Aunque estou comenzando mi carrera
+              profesional, ya he adquirido una valiosa experiencia a través de
+              proyectos personales y colaboraciones.
+            </p>
+            <div class="espaciador__25"></div>
+            <p class="tabulacion box__info presentacion__p">
+              Mi objetivo es seguir formándome en mas tecnologías, pero siempre
+              priorizando una buena base. Todo esto intentando compaginarlo con
+              mis otras pasiones como son el deporte, la naturaleza, la
+              fotografía y por supuesto los amigos.
+            </p>
+          </div>
+        </section>
+
+        <!--Seccion habilidades-->
+        <div
+          onclick="mostrar(habilidades)"
+          class="etiqueta etiqueta__habilidades"
+        >
+          <p class="etiqueta__p">Habilidades</p>
+        </div>
+        <section id="habilidades" class="habilidades ocultar">
+          <h3>Habilidades</h3>
+          <div class="espaciador__50"></div>
+          <div class="box__info habilidades__box">
+            <div class="habilidad__box">
+              <img
+                class="habilidad"
+                src="assets/html-5 1.png"
+                alt="Logo HTML"
+              />
+            </div>
+            <div class="habilidad__box">
+              <img class="habilidad" src="assets/css-3 1.png" alt="Logo CSS" />
+            </div>
+            <div class="habilidad__box">
+              <img
+                class="habilidad"
+                src="assets/js 1.png"
+                alt="Logo JavaScript"
+              />
+            </div>
+            <div class="habilidad__box">
+              <img
+                class="habilidad"
+                src="assets/bootstrap-logo-shadow 1.png"
+                alt="Logo Bootstrap"
+              />
+            </div>
+            <div class="habilidad__box">
+              <img
+                class="habilidad"
+                src="assets/figma 1.png"
+                alt="Logo Figma"
+              />
+            </div>
+          </div>
+        </section>
+
+        <!--Seccion proyectos-->
+        <div onclick="mostrar(proyectos)" class="etiqueta etiqueta__proyectos">
+          <p class="etiqueta__p">Proyectos</p>
+        </div>
+        <section id="proyectos" class="proyectos ocultar">
+          <h3>Proyectos</h3>
+          <p class="box__info proyectos__p">
+            Además de este portfolio, estos son algunos de mis proyectos:
+          </p>
+          <div class="box__info proyectos__box">
+            <div class="proyecto__box">
+              <div class="proyecto__imagen">
+                <a target="_blank" href="https://pelisappxoan.netlify.app/">
+                  <img
+                    src="assets/pelisApp.png"
+                    alt="Imagen de la aplicación web 'PelisApp"
+                    class="proyecto__img"
+                  />
+                </a>
+              </div>
+              <div class="proyecto__info">
+                <p class="proyecto__p">
+                  Aplicación web para búsqueda de información de películas,
+                  series...
+                </p>
+              </div>
+              <a href="https://github.com/XoanCarreira/PelisAPP.git">
+              <img src="assets/gitHub.png" width="20px" alt="">
+            </a>
+            </div>
+
+            <div class="proyecto__box">
+              <div class="proyecto__imagen">
+                <a href="">
+                  <img
+                    src="assets/crtvg.png"
+                    alt="Imagen de la réplica de la web de la CRTVG"
+                    class="proyecto__img"
+                  />
+                </a>
+              </div>
+              <div class="proyecto__info">
+                <p class="proyecto__p">Réplica de la web de la CRTVG</p>
+              </div>
+              <a href="https://github.com/XoanCarreira/CRTVG.git">
+                <img src="assets/gitHub.png" width="20px" alt="">
+              </a>
+            </div>
+            
+            <div class="proyecto__box">
+              <div class="proyecto__imagen">
+                <img
+                  src="assets/frescoStore.png"
+                  alt="Imagen de una landing page creada por Juan Carreira"
+                  class="proyecto__img"
+                />
+              </div>
+              <div class="proyecto__info">
+                <p class="proyecto__p">Ejemplo de una landing page responsive</p>
+              </div>
+              <a href="https://github.com/XoanCarreira/Landing-page-responsive.git">
+                <img src="assets/gitHub.png" width="20px" alt="">
+              </a>
+            </div>
+
+            <div class="proyecto__box"></div>
+          </div>
+        </section>
+
+        <!--Seccion formación-->
+        <div onclick="mostrar(formacion)" class="etiqueta etiqueta__formacion">
+          <p class="etiqueta__p">Formación</p>
+        </div>
+        <section id="formacion" class="formacion ocultar">
+          <h3>Formación</h3>
+        </section>
+        <div class="etiqueta__vacia">
+          <p class="etiqueta__p"></p>
+        </div>
+      </div>
+      <div class="espaciador__50"></div>
+    </main>
+
+    <!--footer-->
+    <footer>
+      <h4>Contacta y hablamos</h4>
+      <div class="footer__box">
+        <div class="correo">
+          <img src="assets/carta.png" alt="Icono de una carta" />
+          <a href="mailto:xoancano@gmail.com">xoancano@gmail.com</a>
+        </div>
+        <div class="telefono">
+          <img src="assets/telefono.png" alt="Icono de un teléfono" />
+          <a href="tel:647293169">647 293 169</a>
+        </div>
+        <div class="rrss">
+          <a class="rrss__a" target="_blank" href="https://github.com/XoanCarreira"
+            ><img class="rrss__img" src="assets/gitHub.png" alt="Logo GitHub"
+          /></a>
+          <a class="rrss__a" href=""
+            ><img
+              class="rrss__img"
+              src="assets/linkedin.png"
+              alt="Logo Linkedin"
+          /></a>
+        </div>
+      </div>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
