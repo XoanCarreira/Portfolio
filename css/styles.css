@@ -101,12 +101,6 @@ h1 {
 
 }
 
-.header__logo {
-    border: 1px solid #000000;
-    border-radius: 50%;
-    box-shadow: -2px 2px 2px #ffffff5d;
-}
-
 h1 {
     font-size: 1.5rem;
 }
@@ -197,11 +191,11 @@ main {
     top: -50px;
     left: 80px;
     -webkit-text-stroke: 2px var(--cor-principal);
+    text-shadow: -2px 2px 2px #fff;
 }
 
 .principal__nome {
     font-size: 4rem;
-    -webkit-text-stroke: 2px var(--cor-principal);
 }
 
 
@@ -280,6 +274,7 @@ h3{
 
 .proyectos__p{
     margin: 30px;
+    font-weight: 600;
 }
 
 .proyecto__box{
@@ -294,6 +289,7 @@ h3{
     justify-content: space-between;
     align-items: center;
     border-radius: 30px 0 30px 0;
+    box-shadow: 5px 5px 10px var(--cor-principal);
 }
 
 .proyecto__box:hover{
@@ -313,6 +309,9 @@ h3{
     text-align: center;
 }
 
+hr{
+    width: 50%;
+}
 
 
 
