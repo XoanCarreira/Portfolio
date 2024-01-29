@@ -1,3 +1,10 @@
+/* @media (width < 900px) {
+    .main__box{
+        display: flex;
+        flex-direction: column;
+    }
+} */
+
 @media ( width <= 700px) {
     .principal__h2{
         font-size: 2rem;
@@ -15,4 +22,6 @@
     .etiqueta__p{
         font-size: 1rem;
     }
+
+
 }
