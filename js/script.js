@@ -1,16 +1,3 @@
-document.addEventListener("DOMContentLoaded", {
-
-
-
-
-
-
-});
-
-
-
-
-
 const presentacion = document.getElementById("presentacion");
 const habilidades = document.getElementById("habilidades");
 const proyectos = document.getElementById("proyectos");

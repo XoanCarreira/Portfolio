@@ -45,7 +45,6 @@ button {
 /* Estilos xerais */
 .body {
     width: 100vw;
-    /* min-height: 100vh; */
 }
 
 a:hover{
@@ -251,7 +250,7 @@ h3{
 }
 
 .habilidad{
-    max-width: 100px;
+    max-height: 100px;
     filter: drop-shadow(5px 5px 5px grey);
     border-radius: 5px;
 }
@@ -315,14 +314,12 @@ hr{
     width: 550px;
     height: 80%;
     margin: 0 auto;
-    /* border: 1px solid black; */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
 
 .formacion__sup{
-    /* border: 1px solid black; */
     height: 150px;
     padding: 0 10px;
     display: flex;
@@ -330,15 +327,10 @@ hr{
 }
 
 .formacion__linea{
-    /* height: 10px;
-    width: 95%; */
-    /* background-color: var(--cor-principal); */
     margin: 0 auto;
-    /* border-radius: 5px; */
 }
 
 .formacion__inf{
-    /* border: 1px solid black; */
     height: 150px;
     display: flex;
     justify-content: space-around;
@@ -394,8 +386,6 @@ hr{
 /*/////////////////////////*/
 /* Estilos footer */
 footer{
-    /* border-top: 1px solid #fff;
-    background-color: var(--cor-principal); */
     min-height: 150px;
     padding: 15px;
     display: flex;

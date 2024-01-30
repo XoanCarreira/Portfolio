@@ -39,7 +39,6 @@
 
     .main__box {
         transform: scale(0.7);
-
     }
 
     .etiqueta {
@@ -96,7 +95,6 @@
 @media (width < 430px) {
     .main__box {
         transform: scale(0.6);
-
     }
 
     .espaciador__150{
