@@ -70,6 +70,11 @@ a:hover{
     padding-left: 15px;
 }
 
+header, main, footer{
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
 
 
 
@@ -101,13 +106,16 @@ h1 {
 
 .header__contacto {
     margin: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
 }
 
 .header__correo {
+    width: 150px;
     padding: 5px 15px;
     border-radius: 5px;
     font-size: 1.2rem;
-    margin: 15px;
     border: 2px solid #fff;
     color: #fff;
 }
@@ -116,7 +124,7 @@ h1 {
 /*/////////////////////*/
 /* Estilos main */
 main {
-    margin: 0 15px;
+    padding: 0 15px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
