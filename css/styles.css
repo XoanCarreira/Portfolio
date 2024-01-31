@@ -192,7 +192,7 @@ main {
     max-width: 650px;
     top: -50px;
     left: 80px;
-    -webkit-text-stroke: 2px var(--cor-principal);
+    -webkit-text-stroke: 1px var(--cor-principal);
     text-shadow: -2px 2px 2px #fff;
 }
 
@@ -295,13 +295,13 @@ h3 {
     justify-content: space-between;
     align-items: center;
     border-radius: 30px 0 30px 0;
-    box-shadow: 10px 10px 10px #03011860;
+    box-shadow: 3px 3px 5px #03011860;
+    transition: transform 0.3s linear;
 }
 
 .proyecto__box:hover {
-    transform: scale(1.3);
-    opacity: 1;
-    position: relative;
+    box-shadow: 10px 10px 10px #03011860;
+    transform:scale(1.4) skew(3deg);
 }
 
 .proyecto__img {
