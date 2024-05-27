@@ -17,6 +17,12 @@
         transform: scale(0.8);
     }
 
+    .presentacion__p{
+        font-size: 1rem;
+        padding: 0 10px;
+        color: #ccc;
+    }
+
     .etiqueta__p {
         font-size: 1rem;
     }
@@ -40,6 +46,16 @@
     .main__box {
         transform: scale(0.7);
     }
+
+    .principal__h2 {
+        font-size: 2rem;
+        padding-left: 10px;
+    }
+
+    .principal__nome {
+        font-size: 2.4rem;
+    }
+
 
     .etiqueta {
         position: fixed;
@@ -97,7 +113,4 @@
         transform: scale(0.6);
     }
 
-    .espaciador__150{
-        display: none;
-    }
 }

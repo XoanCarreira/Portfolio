@@ -5,8 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon" />
     <title>Juan Carreira Nodar</title>
+    <link rel="stylesheet" href="css/animation.css" />
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/styles_media_query.css" />
+    <meta
+      name="description"
+      content="Portfolio de Juan Carreira, desarrollador web front-end"
+    />
   </head>
   <body>
     <!--Header-->
@@ -33,318 +38,241 @@
       </div>
     </header>
 
+    <!--Presentación-->
+    <div class="box__entrada">
+      <p class="entrada__sup">Juan Carreira,</p>
+      <p class="entrada__inf">desarrollador web front-end</p>
+    </div>
+
     <!--Main-->
-    <div class="espaciador__150"></div>
     <main>
       <section class="principal">
-        <img
-          class="foto"
-          src="assets/retrato_grises_s.JPG"
-          alt="Foto de Juan Carreira"
-        />
-        <h2 class="principal__h2">
-          <span class="principal__nome">Juan Carreira,</span><br />desarrollador
-          web front-end
-        </h2>
-      </section>
-
-      <!--Caja central-->
-      <div class="main__box">
-        <!--Seccion presentación-->
-        <div
-          onclick="mostrar(presentacion)"
-          class="etiqueta etiqueta__presentacion"
-        >
-          <p class="etiqueta__p">Presentación</p>
+        <div class="principal__sup">
+          <img
+            class="foto"
+            src="assets/retrato_grises_s.JPG"
+            alt="Foto de Juan Carreira"
+          />
+          <h2 class="principal__h2">
+            <span class="principal__nome">Juan Carreira,</span
+            ><br />desarrollador web front-end
+          </h2>
         </div>
-        <section id="presentacion" class="presentacion">
-          <h3>Presentación</h3>
+        <div class="espaciador__150"></div>
+        <div class="principal__inf">
           <div class="presentacion__box">
             <p class="tabulacion box__info presentacion__p">
               Soy un apasionado desarrollador web en ciernes con una buena base
-              en HTML, CSS y JavaScript. Aunque estoy comenzando mi carrera
-              profesional en este campo, ya he adquirido una valiosa experiencia
-              a través de varios proyectos personales.
+              en HTML, CSS y JavaScript. Desde el primer día he invertido mucho
+              tiempo en codificar y desarrollar, y todos los días he tocado
+              código para poco a poco ir sumando capacidades. Gracias a los
+              distintos proyectos he podido mejorar mis UI, crear aplicaciones
+              totalmente responsive o avanzar en el mundo de las API´s entre
+              otras cualidades.
             </p>
             <div class="espaciador__25"></div>
             <p class="tabulacion box__info presentacion__p">
               Mi principal objetivo es seguir ampliando conocimientos en estas
-              tecnologías, así como ir explorando otras que me llamen la
-              atención, pero siempre priorizando una buena base. Todo esto
-              intentando compaginarlo con mis otras pasiones como son el
-              deporte, la naturaleza, la fotografía y por supuesto los amigos.
-            </p>
-            <div class="espaciador__25"></div>
-            <p class="tabulacion box__info presentacion__p">
-              Las barreras en esta vida solo las pone uno mismo, por lo que con
-              motivación y esfuerzo todo es posible.
+              tecnologías, así como ampliar horizontes y poder controlar todo el
+              proceso de cualquier proyecto.
             </p>
           </div>
-        </section>
-
-        <!--Seccion habilidades-->
-        <div
-          onclick="mostrar(habilidades)"
-          class="etiqueta etiqueta__habilidades"
-        >
-          <p class="etiqueta__p">Habilidades</p>
         </div>
-        <section id="habilidades" class="habilidades">
-          <h3>Habilidades</h3>
-          <div class="espaciador__50"></div>
-          <div class="box__info habilidades__box">
-            <div class="habilidad__box">
-              <img
-                class="habilidad"
-                src="assets/html-5 1.png"
-                alt="Logo HTML"
-              />
-            </div>
-            <div class="habilidad__box">
-              <img class="habilidad" src="assets/css-3 1.png" alt="Logo CSS" />
-            </div>
-            <div class="habilidad__box">
-              <img
-                class="habilidad"
-                src="assets/js 1.png"
-                alt="Logo JavaScript"
-              />
-            </div>
-            <div class="habilidad__box">
-              <img
-                class="habilidad"
-                src="assets/logo_svelte.png"
-                alt="Logo Svelte"
-              />
-            </div>
-            <div class="habilidad__box">
-              <img
-                class="habilidad"
-                src="assets/bootstrap-logo 1.png"
-                alt="Logo Bootstrap"
-              />
-            </div>
-            <div class="habilidad__box">
-              <img
-                class="habilidad"
-                src="assets/figma 1.png"
-                alt="Logo Figma"
-              />
-            </div>
-          </div>
-        </section>
+      </section>
 
-        <!--Seccion proyectos-->
-        <div onclick="mostrar(proyectos)" class="etiqueta etiqueta__proyectos">
-          <p class="etiqueta__p">Proyectos</p>
-        </div>
-        <section id="proyectos" class="proyectos">
-          <h3>Proyectos</h3>
-          <p class="box__info proyectos__p">
-            Además de este portfolio, estos son algunos de mis proyectos:
-          </p>
-          <div class="box__info proyectos__box">
-            <div class="proyecto__box">
-              <div class="proyecto__imagen">
-                <a target="_blank" href="https://pelisappxoan.netlify.app/">
-                  <img
-                    src="assets/pelisApp.png"
-                    alt="Imagen de la aplicación web 'PelisApp"
-                    class="proyecto__img"
-                  />
-                </a>
-              </div>
-              <hr />
-              <div class="proyecto__info">
-                <p class="proyecto__p">
-                  Aplicación web para búsqueda de información de películas,
-                  series...
-                </p>
-              </div>
-              <hr />
-              <a
-                target="_blank"
-                href="https://github.com/XoanCarreira/PelisAPP.git"
-              >
-                <img src="assets/gitHub.png" width="20px" alt="" />
-              </a>
-            </div>
+      <!--Caja central-->
+      <!--Seccion presentación-->
+      <div class="espaciador__150"></div>
 
-            <div class="proyecto__box">
-              <div class="proyecto__imagen">
-                <a target="_blank" href="https://replica-crtvg.netlify.app/">
-                  <img
-                    src="assets/crtvg.png"
-                    alt="Imagen de la réplica de la web de la CRTVG"
-                    class="proyecto__img"
-                  />
-                </a>
-              </div>
-              <hr />
-              <div class="proyecto__info">
-                <p class="proyecto__p">Réplica de la web de la CRTVG</p>
-              </div>
-              <hr />
-              <a
-                target="_blank"
-                href="https://github.com/XoanCarreira/CRTVG.git"
-              >
-                <img src="assets/gitHub.png" width="20px" alt="" />
-              </a>
-            </div>
-
-            <div class="proyecto__box">
-              <div class="proyecto__imagen">
+      <section id="proyectos" class="proyectos">
+        <h3 class="proyectos__h3">Proyectos</h3>
+        <div class="box__info proyectos__box">
+          <div class="proyecto__box">
+            <div class="proyecto__imagen">
+              <a target="_blank" href="https://pelisappxoan.netlify.app/">
                 <img
-                  src="assets/frescoStore.png"
-                  alt="Imagen de una landing page creada por Juan Carreira"
+                  src="assets/pelisApp.png"
+                  alt="Imagen de la aplicación web 'PelisApp"
                   class="proyecto__img"
                 />
-              </div>
-              <hr />
-              <div class="proyecto__info">
-                <p class="proyecto__p">
-                  Ejemplo de una landing page responsive
-                </p>
-              </div>
-              <hr />
-              <a
-                target="_blank"
-                href="https://github.com/XoanCarreira/Landing-page-responsive.git"
-              >
-                <img src="assets/gitHub.png" width="20px" alt="" />
               </a>
             </div>
+            <hr />
+            <div class="proyecto__info">
+              <p class="proyecto__p">
+                Aplicación web para búsqueda de información de películas,
+                series...
+              </p>
+            </div>
+            <hr />
+            <a
+              target="_blank"
+              href="https://github.com/XoanCarreira/PelisAPP.git"
+            >
+              <img src="assets/gitHub.png" width="20px" alt="" />
+            </a>
+          </div>
 
-            <div class="proyecto__box">
-              <div class="proyecto__imagen">
-                <a
-                  target="_blank"
-                  href="https://formulario-responsive-xoan.netlify.app/"
-                >
-                  <img
-                    src="assets/formulario_responsive.png"
-                    alt="Imagen de un formulario de contacto responsive"
-                    class="proyecto__img"
-                  />
-                </a>
-              </div>
-              <hr />
-              <div class="proyecto__info">
-                <p class="proyecto__p">
-                  Ejemplo de un formulario de contacto responsive usando
-                  Bootstrap
-                </p>
-              </div>
-              <hr />
-              <a
-                target="_blank"
-                href="https://github.com/XoanCarreira/Formulario_responsive.git"
-              >
-                <img src="assets/gitHub.png" width="20px" alt="" />
+          <div class="proyecto__box">
+            <div class="proyecto__imagen">
+              <a target="_blank" href="https://otempoapp.netlify.app/">
+                <img
+                  src="assets/otempoapp.jpg"
+                  alt="Aplicación con la previsión del tiempo"
+                  class="proyecto__img"
+                />
               </a>
             </div>
+            <hr />
+            <div class="proyecto__info">
+              <p class="proyecto__p">
+                Aplicación para la consulta del tiempo por localidades de
+                cualquier parte del mundo. También pudes consultar las mareas en
+                los principales puertos de Galicia.
+              </p>
+            </div>
+            <hr />
+            <a
+              target="_blank"
+              href="https://github.com/XoanCarreira/Landing-page-responsive.git"
+            >
+              <img src="assets/gitHub.png" width="20px" alt="" />
+            </a>
           </div>
-        </section>
 
-        <!--Seccion formación-->
-        <div onclick="mostrar(formacion)" class="etiqueta etiqueta__formacion">
-          <p class="etiqueta__p">Formación</p>
-        </div>
-        <section id="formacion" class="formacion">
-          <h3>Formación</h3>
-          <div class="formacion__box">
-            <div class="separador__50"></div>
-            <div class="formacion__curso">
-              <p class="formacion__formacion">Curso programación con JavaScript</p>
-              <p class="formacion__data">2024 - Enero-Febrero</p>
-              <p class="formacion__centro">Fundación Telefónica (online)</p>
+          <div class="proyecto__box">
+            <div class="proyecto__imagen">
+              <a target="_blank" href="https://replica-crtvg.netlify.app/">
+                <img
+                  src="assets/crtvg.png"
+                  alt="Imagen de la réplica de la web de la CRTVG"
+                  class="proyecto__img"
+                />
+              </a>
             </div>
-            <div class="formacion__curso">
-              <p class="formacion__formacion">
-                C.P. Desarrollo y publicación de páginas web
-              </p>
-              <p class="formacion__data">2023/24 - Septiembre-cursando</p>
-              <p class="formacion__centro">U.A.F. Ames</p>
+            <hr />
+            <div class="proyecto__info">
+              <p class="proyecto__p">Réplica de la web de la CRTVG</p>
             </div>
-            <div class="formacion__curso">
-              <p class="formacion__formacion">Curso "Python fundamentals V2"</p>
-              <p class="formacion__data">2023 - Agosto-Octubre</p>
-              <p class="formacion__centro">
-                IMMUNE Tecnology Institute (online)
-              </p>
-            </div>
-
-            <div class="formacion__mais">
-              <p>
-                Para ampliar información consulta mi
-                <a
-                  class="formacion__cv"
-                  target="_blank"
-                  href="https://drive.google.com/file/d/1NeXCPGmk_uPVteft4DCVANUnmW1G8myP/view?usp=sharing"
-                  >CV</a
-                >
-                o ponte en contacto y estaré encantado de resolver cualquier
-                dúda.
-              </p>
-            </div>
-            <!-- <div class="formacion__sup">
-              <div class="formacion__estudios formacion__contenedor">
-                <p class="formacion__p">
-                  <span class="formacion__centro">IES Monte de Conxo:</span>
-                  C.M. Electromecánica de vehículos
-                </p>
-                <hr />
-                <p class="formacion__data">2001-2003</p>
-              </div>
-              <div class="formacion__urovesa formacion__contenedor">
-                <p class="formacion__p">
-                  <span class="formacion__centro">UROVESA:</span> Técnico de
-                  producción
-                </p>
-                <hr />
-                <p class="formacion__data">2014-2023</p>
-              </div>
-              <div class="formacion__web formacion__contenedor">
-                <p class="formacion__p">
-                  <span class="formacion__centro">U.A.F. AMES:</span> C.P.
-                  Desarrollo y publicación de páginas web
-                </p>
-                <hr />
-                <p class="formacion__data">2023-2024</p>
-              </div>
-            </div>
-
-            <div class="formacion__linea">
-              <img src="assets/liña_temporal.png" alt="Linea temporal" />
-            </div>
-
-            <div class="formacion__inf">
-              <div class="formacion__brea formacion__contenedor">
-                <p class="formacion__data">2003-2013</p>
-                <hr />
-                <p class="formacion__p">
-                  <span class="formacion__centro">Grupo Brea:</span> 1 año como
-                  mecánico y 9 en departamento logística.
-                </p>
-              </div>
-              <div class="formacion__python formacion__contenedor">
-                <p class="formacion__data">2023</p>
-                <hr />
-                <p class="formacion__p">
-                  <span class="formacion__centro">INMUNE Institute:</span> Curso
-                  fundamentos Python
-                </p>
-              </div>
-            </div> -->
+            <hr />
+            <a target="_blank" href="https://github.com/XoanCarreira/CRTVG.git">
+              <img src="assets/gitHub.png" width="20px" alt="" />
+            </a>
           </div>
-        </section>
-        <div class="etiqueta__vacia">
-          <p class="etiqueta__p"></p>
+
+          <div class="proyecto__box">
+            <div class="proyecto__imagen">
+              <a target="_blank" href="https://bouldercompostela.netlify.app/">
+                <img
+                  src="assets/boulder_compostela.png"
+                  alt="Imagen de un formulario de contacto responsive"
+                  class="proyecto__img"
+                />
+              </a>
+            </div>
+            <hr />
+            <div class="proyecto__info">
+              <p class="proyecto__p">
+                Guia de escalada en boulder de la zona de Compostela. El usuario
+                puede acceder a la información de las distintas zonas y sectores
+                de escalada.
+              </p>
+            </div>
+            <hr />
+            <a
+              target="_blank"
+              href="https://github.com/XoanCarreira/bloque_compostela.git"
+            >
+              <img src="assets/gitHub.png" width="20px" alt="" />
+            </a>
+          </div>
         </div>
-      </div>
+      </section>
+
+
+      <!--Seccion habilidades-->
+      <div class="espaciador__150"></div>
+      <section id="habilidades" class="habilidades">
+        <h3>Habilidades</h3>
+        <div class="espaciador__50"></div>
+        <div class="box__info habilidades__box">
+          <div class="habilidad__box">
+            <img class="habilidad" src="assets/html-5 1.png" alt="Logo HTML" />
+          </div>
+          <div class="habilidad__box">
+            <img class="habilidad" src="assets/css-3 1.png" alt="Logo CSS" />
+          </div>
+          <div class="habilidad__box">
+            <img
+              class="habilidad"
+              src="assets/js 1.png"
+              alt="Logo JavaScript"
+            />
+          </div>
+          <div class="habilidad__box">
+            <img
+              class="habilidad"
+              src="assets/logo_svelte.png"
+              alt="Logo Svelte"
+            />
+          </div>
+          <div class="habilidad__box">
+            <img
+              class="habilidad"
+              src="assets/bootstrap-logo 1.png"
+              alt="Logo Bootstrap"
+            />
+          </div>
+          <div class="habilidad__box">
+            <img class="habilidad" src="assets/figma 1.png" alt="Logo Figma" />
+          </div>
+        </div>
+      </section>
+
+
+      <!--Seccion formación-->
+      <div class="espaciador__150"></div>
+      <section id="formacion" class="formacion">
+        <h3>Formación</h3>
+        <div class="separador__50"></div>
+        <div class="formacion__box">
+          <div class="formacion__curso">
+            <p class="formacion__formacion">
+              Curso programación con JavaScript
+            </p>
+            <p class="formacion__data">2024 - Enero-Febrero</p>
+            <p class="formacion__centro">Fundación Telefónica (online)</p>
+          </div>
+          <div class="formacion__curso">
+            <p class="formacion__formacion">
+              C.P. Desarrollo y publicación de páginas web
+            </p>
+            <p class="formacion__data">2023/24 - Septiembre-Abril</p>
+            <p class="formacion__centro">U.A.F. Ames</p>
+          </div>
+          <div class="formacion__curso">
+            <p class="formacion__formacion">Curso "Python fundamentals V2"</p>
+            <p class="formacion__data">2023 - Agosto-Octubre</p>
+            <p class="formacion__centro">IMMUNE Tecnology Institute (online)</p>
+          </div>
+        </div>
+        <div class="formacion__mais">
+          <p>
+            Para ampliar información consulta mi
+            <a
+              class="formacion__cv"
+              target="_blank"
+              href="https://drive.google.com/file/d/1NeXCPGmk_uPVteft4DCVANUnmW1G8myP/view?usp=sharing"
+              >CV</a
+            >
+            o ponte en contacto y estaré encantado de resolver cualquier dúda.
+          </p>
+        </div>
+      </section>
     </main>
     <div class="espaciador__150"></div>
+
+
 
     <!--footer-->
     <footer>
@@ -367,7 +295,7 @@
             href="https://github.com/XoanCarreira"
             ><img class="rrss__img" src="assets/gitHub.png" alt="Logo GitHub"
           /></a>
-          <a class="rrss__a" href=""
+          <a class="rrss__a" href="www.linkedin.com/in/juan-carreira-nodar-4b8989285"
             ><img
               class="rrss__img"
               src="assets/linkedin.png"
