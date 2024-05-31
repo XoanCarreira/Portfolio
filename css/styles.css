@@ -77,7 +77,9 @@ footer {
     margin: 0 auto;
 }
 
-
+.capa__body{
+    background-color: #03011882;
+}
 
 
 /* Header */
@@ -142,14 +144,15 @@ h1 {
 
 .foto {
     max-width: 400px;
-    border-radius: 50% 0;
-    mask-image: linear-gradient(var(--cor-principal) 5%, transparent);
+    /* border-radius: 50% 0; */
+    mask-image: linear-gradient(var(--cor-principal) 50%, transparent);
+    filter: drop-shadow(0px 0px 10px grey);
 }
 
-.principal__h2 {
+/* .principal__h2 {
     font-size: 2rem;
     -webkit-text-stroke: 1px var(--cor-principal);
-}
+} */
 
 .principal__nome {
     font-size: 3rem;
@@ -169,7 +172,7 @@ h1 {
 /*////////////////////////////////////////////////////////////////////////////////////////
 Probas svg
 */
-.svg_juan {
+/* .svg_juan {
     width: 150px;
 }
 
@@ -271,7 +274,7 @@ main {
         display: block;
         opacity: 1;
     }
-}
+} */
 
 /*////////////////////////////////////////////////////////////////////////////////////
 fin probas svg*/
@@ -292,6 +295,7 @@ fin probas svg*/
 .proyectos__box {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     justify-content: center;
     gap: 30px;
 }
@@ -300,7 +304,7 @@ fin probas svg*/
 .proyecto__box {
     width: 400px;
     height: 400px;
-    border: 1px solid black;
+    /* border: 1px solid rgb(255, 255, 255); */
     padding: 10px;
     box-sizing: content-box;
     background-color: rgb(0, 0, 0);
@@ -308,8 +312,9 @@ fin probas svg*/
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    border-radius: 30px 0 30px 0;
-    box-shadow: 3px 3px 5px #03011860;
+    border-radius: 5px 5px 5px 5px;
+    /* box-shadow: 3px 3px 5px #03011860; */
+    box-shadow: inset 0 0 5px 2px white, 0 0 5px 5px white;
 }
 
 
